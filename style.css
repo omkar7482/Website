@@ -1,10 +1,22 @@
-body{
-    background-color: rgb(135, 23, 23);
+* {
+    margin: 0;
+    padding: 0;
 }
-#first{
-    color: rgb(137, 129, 129);
 
+.body {
+    background-color: #F5F7F5;
+    /* background-color: black; */
 }
-div{
-    background-color: rgb(250, 0, 0);
+
+
+.nav ul {
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    /* color: white; */
+    font-size: 3vw;
+    width: 100vw;
+    height: 13vh;
+    /* background-color: black; */
 }

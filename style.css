@@ -32,18 +32,19 @@ body {
     border: 2px solid blue;
     border-radius: 32px;
     background-color: #E3ECE5;
+    flex-wrap: wrap;
 }
 
 #sub-container1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 40em;
-    height: 26em;
+    max-width: 27em; 
+    max-height: 29em;
     border: 2px solid blue;
     background-color: #E3ECE5;
     flex-direction: column;
-    margin-right: 10em
+    /* margin-right: 10em */
 }
 
 #image-container {
@@ -65,9 +66,11 @@ body {
     justify-content: center;
     height: 11rem;
     width: 15rem;
+    flex-wrap: wrap;
 }
 
 #intro {
     display: flex;
     align-items: column;
+    flex-wrap: wrap;
 }

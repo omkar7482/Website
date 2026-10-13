@@ -27,7 +27,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 96%;
-    min-height: 100vh;
+    min-height: 50vh;
     margin: 25px 25px 25px 25px;
     border: 2px solid blue;
     border-radius: 32px;
@@ -39,7 +39,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    max-width: 27em; 
+    max-width: 27em;
     max-height: 29em;
     border: 2px solid blue;
     background-color: #E3ECE5;

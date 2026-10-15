@@ -18,7 +18,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 51px;
+    height: 75px;
     /* background-color: black; */
 }
 
@@ -35,14 +35,17 @@ body {
 }
 
 .nav ul div {
-    display: inline-flex;
-
+    display: flex;
     /* background-color: black; */
 }
 
+.name {
+    font-size: 34px;
+}
+
 .circle {
-    width: 2rem;
-    height: 2rem;
+    width: 53px;
+    height: 53px;
     background-color: #4F7F78;
     border-radius: 50%;
 
@@ -50,8 +53,8 @@ body {
 
 
 .star svg {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     fill: white;
 }
 
@@ -195,31 +198,69 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 18%;
-    height: 61%;
+    width: 27%;
+    height: 74%;
     background-color: #4F7F78;
     border-radius: 32px;
     flex-wrap: wrap;
-    font-size: 11px;
+    font-size: 13px;
+    color: white;
+    font-weight: 600;
 }
 
 .nav-items {
     /* display: flex; */
     justify-content: space-around;
     align-items: center;
-    width: 19%;
-    height: 38px;
+    width: 300px;
+    height: 48px;
     background-color: white;
     border-radius: 32px;
-    font-size: 9px;
+    font-size: 15px;
 
     .li {
         flex-wrap: wrap;
     }
 }
+
 .work {
     background-color: #E3ECE5;
     border-radius: 50px;
-    
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 24px;
+    padding-right: 24px;
+
 }
+
+.view-my-work-btn2 {
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 27%;
+    height: 74%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 13px;
+    flex-wrap: wrap;
+
+}
+
+@media (max-width: 500px) {
+    .view_my_work {
+        display: flex;
+        flex-direction: column;
+        border-radius: 50px;
+        width: 27%;
+        height: 74%;
+        background-color: #4F7F78;
+        font-weight: 600;
+        gap: 30px;
+        justify-content: space-around;
+    }
+}
+.star{
+    align-items: center;
+}
+
 

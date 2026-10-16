@@ -1,2 +1,2 @@
 # Website
-A simple website of me .
+A simple website of about me  .

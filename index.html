@@ -25,9 +25,9 @@
         </div>
         <div class="nav-items">
             <li class="work">Work</li>
-            <li>About</li>
-            <li>Skills</li>
-            <li>Contact</li>
+            <li class="skills_redirect"><a href="#skills">Skills</a></li>
+            <li class = "about_redirect"><a href="#about">About</a></li>
+            <li class = "contact"><a href="mailto:ok748286@gmail.com">Contact</a></li>
         </div>
 
         <!-- <li>Hire me</li> -->
@@ -43,8 +43,13 @@
             <h1 id="intro">Hi, I'm Newton Kumar. I am a student of IIT Madras.</h1>
         </div>
         <div class="view_my_work">
-            <div class="view-my-work-btn">View My Work</div>
-            <div class="view-my-work-btn2">Download CV</div>
+            <a href="https://github.com/omkar7482" target="_blank">
+                <div class="view-my-work-btn">View My Work</div>
+            </a>
+
+            <a href="Newton_Kumar_CV.pdf" target="_blank">
+                <div class="view-my-work-btn2">Download CV</div>
+            </a>
         </div>
         <!-- <div class="view_my_work">
             <div>2 Project shipped</div>
@@ -56,7 +61,7 @@
         <img src="images/image.jpeg" alt="profile image ">
     </div>
 </div>
-<div class="skills">
+<div id = "skills" class="skills">
     <div>HTML</div>
     <div>
         <div class="star2">
@@ -77,36 +82,52 @@
 </div>
 <div id="about_me_section">
     <div id="image-container2">
-        <image src="images/IMG20250602105824.jpg" alt="Images">
+        <img src="images/IMG20250602105824.jpg" alt="Images">
     </div>
     <div>
-        <div class="about-me-paragraph">
+        <div  id ="about" class="about-me-paragraph">
             <h1>About Me</h1>
             <p>
                 I am a student of IIT Madras. I am currently pursuing my B.S in Data Science and Applications. I have
                 interest in web development and machine learning. Currently I am learning about CSS and Java Script.
             </p>
         </div>
-        <div>
-            <div>
-
-            </div>
-            <div>
-
-            </div>
-            <div>
-
-            </div>
-        </div>
     </div>
 
 </div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
+<section id="about" class="about-section">
+    <div class="about-container">
 
+        <p>
+            Hi, I'm <strong>Newton Kumar</strong>, a BS in Data Science and Applications student at
+            <strong>IIT Madras</strong>, currently at the Foundation level with a CGPA of 7.17.
+            I'm based in <strong>Gaya, Bihar</strong>, and I'm a full-time student passionate about
+            programming and problem-solving.
+        </p>
+
+        <p>
+            I work primarily with <strong>Python, HTML, and CSS</strong>, and I have a basic
+            understanding of <strong>C#</strong>. I use <strong>VS Code</strong> for development and
+            regularly upload my Python practice codes to
+            <a href="https://github.com/omkar7482" target="_blank">GitHub</a>.
+            I speak both <strong>Hindi and English</strong>.
+        </p>
+
+        <p>
+            Currently, I'm focused on <strong>competitive programming</strong> and open-source
+            contributions, with the goal of participating in <strong>Google Summer of Code (GSoC)</strong>.
+            My long-term ambition is to secure a software engineering role at a
+            <strong>FAANG/MANG</strong> company.
+        </p>
+
+        <!-- If you want to use your existing buttons here, you can paste your own button HTML right here -->
+
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="email"> &copy; Newton Kumar <a href="mailto:ok748286@gmail.com">Get in touch</a> </div>
+</footer>
 
 
 </html>

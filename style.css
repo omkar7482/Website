@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 * {
     margin: 0;
@@ -224,6 +228,8 @@ body {
     height: 12em;
     width: 21em;
     padding-left: 11em;
+    font-size: 19px;
+    scroll-margin-top: 90px;
 
 }
 
@@ -286,13 +292,12 @@ body {
     border-radius: 50px;
     width: 130px;
     height: 34px;
-    ;
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-size: 13px;
     flex-wrap: wrap;
-
+    color: black;
 }
 
 @media (max-width: 500px) {
@@ -337,6 +342,7 @@ body {
     justify-content: center;
     font-size: 25px;
     gap: 45px;
+    scroll-margin-top: 200px;
 }
 
 .star2 {
@@ -352,6 +358,7 @@ body {
     height: 100%;
     fill: #C6C0DC;
 }
+
 .star3 {
     display: flex;
     justify-content: center;
@@ -365,4 +372,104 @@ body {
     height: 100%;
     fill: #F0DFD5;
 
+}
+
+
+/* --- About Me Section Theme --- */
+.about-section {
+    /* Matches the peach/beige background at the bottom of your screenshot */
+    background-color: #F6ECE4;
+    padding: clamp(40px, 8vw, 80px) 20px;
+    color: #2c2c2c;
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    /* Clean sans-serif */
+}
+
+.about-container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    /* Left-aligned to match your hero section */
+}
+
+.about-section h2 {
+    /* Serif font to match your "Hi, I'm Newton Kumar" heading */
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: #1a1a1a;
+}
+
+.about-section p {
+    font-size: clamp(1rem, 2.5vw, 1.15rem);
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #4a4a4a;
+}
+
+/* Links inside the text (like GitHub) styled to match your theme's green accent */
+.about-section a {
+    color: #2e5c4e;
+    /* Dark green accent from your existing buttons */
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    transition: color 0.2s ease;
+}
+
+.about-section a:hover {
+    color: #1f4036;
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 600px) {
+    .about-section {
+        padding: 40px 16px;
+    }
+}
+
+.view_my_work a {
+    display: flex;
+    text-decoration: none;
+
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    color: white;
+
+}
+
+.email a {
+    /* display: flex; */
+    text-decoration: none;
+    color: white;
+}
+
+.skills_redirect a {
+    /* display: flex; */
+    text-decoration: none;
+    color: black;
+}
+
+.about_redirect a {
+    /* display: flex; */
+    text-decoration: none;
+    color: black;
+}
+
+.contact a {
+    /* display: flex; */
+    text-decoration: none;
+    color: black;
+}
+
+.about {
+    scroll-margin-top: 800px; /* Adjust this number to match the height of your navbar */
 }

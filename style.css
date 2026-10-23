@@ -345,6 +345,20 @@ body {
     scroll-margin-top: 200px;
 }
 
+@media (max-width: 600px) {
+    .skills {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        gap: 15px;
+        scroll-margin-top: 200px;
+    }
+
+}
+
+
 .star2 {
     display: flex;
     justify-content: center;
@@ -429,6 +443,8 @@ body {
     }
 }
 
+
+
 .view_my_work a {
     display: flex;
     text-decoration: none;
@@ -471,8 +487,6 @@ body {
 }
 
 .about {
-    scroll-margin-top: 800px; /* Adjust this number to match the height of your navbar */
+    scroll-margin-top: 800px;
+    /* Adjust this number to match the height of your navbar */
 }
-
-
-
